@@ -21,4 +21,6 @@ public class RockjugApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(RockjugApplication.class, args);
 	}
+
+
 }
