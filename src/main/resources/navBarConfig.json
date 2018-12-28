@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Home",
+    "type": "LINK",
+    "destination": "/",
+    "active": true,
+    "disabled": false,
+    "parent": ""
+  },
+  {
+    "name": "Calendar",
+    "type": "LINK",
+    "destination": "/calendar",
+    "active": false,
+    "disabled": false,
+    "parent": ""
+  },
+  {
+    "name": "Menu",
+    "type": "DROPDOWN",
+    "destination": "",
+    "active": false,
+    "disabled": false,
+    "parent": ""
+  },
+  {
+    "name": "DropDownChild",
+    "type": "LINK",
+    "destination": "/",
+    "active": false,
+    "disabled": false,
+    "parent": "Menu"
+  }
+]

@@ -26,20 +26,15 @@
 
 	<dependencies>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>
-        <!-- For Password Strength... The tutorial used it.  -->
-		<!--<dependency>-->
-		<!--<groupId>com.nulab-inc</groupId>-->
-		<!--<artifactId>zxcvbn</artifactId>-->
-		<!--<version>1.2.3</version>-->
-		<!--</dependency>-->
 		<!--<dependency>-->
 		<!--<groupId>org.springframework.boot</groupId>-->
-		<!--<artifactId>spring-boot-starter-security</artifactId>-->
+		<!--<artifactId>spring-boot-starter-mail</artifactId>-->
 		<!--</dependency>-->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -63,11 +58,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--<dependency>-->
-		<!--<groupId>org.springframework.security</groupId>-->
-		<!--<artifactId>spring-security-test</artifactId>-->
-		<!--<scope>test</scope>-->
-		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<profiles>
